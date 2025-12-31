@@ -22,6 +22,8 @@ from pyrit.executor.attack.multi_turn.tree_of_attacks import (
     TAPAttackContext,
 )
 
+from pyrit.executor.attack.multi_turn.abs import ABSAttackContext, ABSAttackResult, AdaptiveBeamSearchAttack
+
 __all__ = [
     "ConversationSession",
     "MultiTurnAttackContext",
@@ -37,4 +39,7 @@ __all__ = [
     "TAPAttack",
     "TAPAttackResult",
     "TAPAttackContext",
+    "ABSAttackContext",
+    "ABSAttackResult",
+    "AdaptiveBeamSearchAttack",
 ]
